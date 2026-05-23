@@ -1,4 +1,4 @@
-package com.geode.launcher.utils
+package com.wrstgdps.geode.utils
 
 import android.graphics.drawable.AdaptiveIconDrawable
 import android.os.Build
@@ -14,7 +14,7 @@ import androidx.compose.ui.platform.LocalResources
 import androidx.compose.ui.res.painterResource
 import androidx.core.content.res.ResourcesCompat
 import androidx.core.graphics.drawable.toBitmap
-import com.geode.launcher.R
+import com.wrstgdps.geode.R
 import kotlinx.datetime.Month
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.todayIn

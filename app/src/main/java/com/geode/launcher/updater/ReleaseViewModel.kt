@@ -1,4 +1,4 @@
-package com.geode.launcher.updater
+package com.wrstgdps.geode.updater
 
 import android.app.Application
 import androidx.lifecycle.ViewModel

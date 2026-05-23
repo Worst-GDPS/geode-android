@@ -1,4 +1,4 @@
-package com.geode.launcher.utils
+package com.wrstgdps.geode.utils
 
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth

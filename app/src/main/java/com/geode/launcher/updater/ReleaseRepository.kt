@@ -1,7 +1,7 @@
-package com.geode.launcher.updater
+package com.wrstgdps.geode.updater
 
-import com.geode.launcher.BuildConfig
-import com.geode.launcher.utils.LaunchUtils
+import com.wrstgdps.geode.BuildConfig
+import com.wrstgdps.geode.utils.LaunchUtils
 import kotlin.time.Clock
 import kotlinx.datetime.DateTimeUnit
 import kotlin.time.Instant

@@ -1,4 +1,4 @@
-package com.geode.launcher.activityresult
+package com.wrstgdps.geode.activityresult
 
 import android.app.Activity
 import android.content.Context

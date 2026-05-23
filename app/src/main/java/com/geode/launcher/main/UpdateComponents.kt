@@ -1,4 +1,4 @@
-package com.geode.launcher.main
+package com.wrstgdps.geode.main
 
 import android.app.PendingIntent
 import android.content.Context
@@ -49,13 +49,13 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.TextLinkStyles
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.dp
-import com.geode.launcher.InstallReceiver
-import com.geode.launcher.R
-import com.geode.launcher.main.LauncherUpdater.downloadUpdate
-import com.geode.launcher.ui.theme.Typography
-import com.geode.launcher.updater.ReleaseManager
-import com.geode.launcher.utils.LaunchUtils
-import com.geode.launcher.utils.PreferenceUtils
+import com.wrstgdps.geode.InstallReceiver
+import com.wrstgdps.geode.R
+import com.wrstgdps.geode.main.LauncherUpdater.downloadUpdate
+import com.wrstgdps.geode.ui.theme.Typography
+import com.wrstgdps.geode.updater.ReleaseManager
+import com.wrstgdps.geode.utils.LaunchUtils
+import com.wrstgdps.geode.utils.PreferenceUtils
 import com.mikepenz.markdown.compose.LocalBulletListHandler
 import com.mikepenz.markdown.m3.Markdown
 import com.mikepenz.markdown.m3.markdownTypography

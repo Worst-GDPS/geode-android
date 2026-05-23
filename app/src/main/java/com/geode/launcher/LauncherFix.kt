@@ -1,7 +1,7 @@
-package com.geode.launcher
+package com.wrstgdps.geode
 
 import androidx.annotation.Keep
-import com.geode.launcher.utils.Constants
+import com.wrstgdps.geode.utils.Constants
 
 @Keep
 object LauncherFix {

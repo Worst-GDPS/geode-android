@@ -1,4 +1,4 @@
-package com.geode.launcher.preferences
+package com.wrstgdps.geode.preferences
 
 import android.content.ComponentName
 import android.content.Context
@@ -50,16 +50,16 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import com.geode.launcher.R
-import com.geode.launcher.ui.theme.GeodeLauncherTheme
-import com.geode.launcher.ui.theme.LocalTheme
-import com.geode.launcher.ui.theme.Theme
-import com.geode.launcher.utils.PreferenceUtils
+import com.wrstgdps.geode.R
+import com.wrstgdps.geode.ui.theme.GeodeLauncherTheme
+import com.wrstgdps.geode.ui.theme.LocalTheme
+import com.wrstgdps.geode.ui.theme.Theme
+import com.wrstgdps.geode.utils.PreferenceUtils
 import androidx.compose.ui.semantics.Role
-import com.geode.launcher.utils.ApplicationIcon
-import com.geode.launcher.utils.ApplicationIconDetails
-import com.geode.launcher.utils.IconUtils
-import com.geode.launcher.utils.adaptiveIconPainterResource
+import com.wrstgdps.geode.utils.ApplicationIcon
+import com.wrstgdps.geode.utils.ApplicationIconDetails
+import com.wrstgdps.geode.utils.IconUtils
+import com.wrstgdps.geode.utils.adaptiveIconPainterResource
 
 class ApplicationIconActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

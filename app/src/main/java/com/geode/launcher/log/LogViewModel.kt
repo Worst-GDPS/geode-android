@@ -1,4 +1,4 @@
-package com.geode.launcher.log
+package com.wrstgdps.geode.log
 
 import androidx.compose.runtime.mutableStateListOf
 import androidx.lifecycle.ViewModel
