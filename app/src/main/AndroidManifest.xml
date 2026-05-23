@@ -60,7 +60,7 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="geode-launcher" android:host="developer-settings" />
+                <data android:scheme="wrstgdps-geode" android:host="developer-settings" />
             </intent-filter>
         </activity>
         <activity
@@ -73,7 +73,7 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="geode-launcher" android:host="logs" />
+                <data android:scheme="wrstgdps-geode" android:host="logs" />
             </intent-filter>
         </activity>
         <activity
@@ -86,7 +86,7 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="geode-launcher" android:host="crashes" />
+                <data android:scheme="wrstgdps-geode" android:host="crashes" />
             </intent-filter>
         </activity>
         <activity
@@ -99,7 +99,7 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="geode-launcher" android:host="geode-logs" />
+                <data android:scheme="wrstgdps-geode" android:host="geode-logs" />
             </intent-filter>
         </activity>
         <activity
@@ -122,7 +122,7 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="geode-launcher" android:host="settings" />
+                <data android:scheme="wrstgdps-geode" android:host="settings" />
             </intent-filter>
         </activity>
         <activity
@@ -151,7 +151,7 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="geode-launcher" android:host="main" />
+                <data android:scheme="wrstgdps-geode" android:host="main" />
             </intent-filter>
         </activity>
 
@@ -172,7 +172,7 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="geode-launcher" android:host="main" />
+                <data android:scheme="wrstgdps-geode" android:host="main" />
             </intent-filter>
         </activity-alias>
         <activity-alias
@@ -192,7 +192,7 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="geode-launcher" android:host="main" />
+                <data android:scheme="wrstgdps-geode" android:host="main" />
             </intent-filter>
         </activity-alias>
         <activity-alias
@@ -212,7 +212,7 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="geode-launcher" android:host="main" />
+                <data android:scheme="wrstgdps-geode" android:host="main" />
             </intent-filter>
         </activity-alias>
         <activity-alias
@@ -232,13 +232,13 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="geode-launcher" android:host="main" />
+                <data android:scheme="wrstgdps-geode" android:host="main" />
             </intent-filter>
         </activity-alias>
 
         <provider
             android:name=".UserDirectoryProvider"
-            android:authorities="com.wrstgdps.launcher.user"
+            android:authorities="com.wrstgdps.geode.user"
             android:exported="true"
             android:grantUriPermissions="true"
             android:permission="android.permission.MANAGE_DOCUMENTS">
@@ -248,7 +248,7 @@
         </provider>
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.wrstgdps.launcher.fileprovider"
+            android:authorities="com.wrstgdps.geode.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
