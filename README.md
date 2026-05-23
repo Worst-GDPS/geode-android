@@ -1,18 +1,14 @@
-# Geode Android Launcher
+# Worst GDPS Geode 
 
-Launches a vanilla copy of Geometry Dash with the Geode loader added.
+Adds Geode into Worst GDPS. You need the base version downloaded for it to work
 
 ## Shortcut Links
-
-The launcher supports a handful of links as an escape hatch when the main functionality is impaired in some way (such as needing to prevent an automatic launch due to a crash).  
-You can open these links by copying them into the URL bar in some browsers (like Chrome), or through ADB.
-
 | Link                                        | Action                                                                   |
 |---------------------------------------------|--------------------------------------------------------------------------|
-| geode-launcher://main                       | Opens to the main activity, forces the user to explicitly confirm launch |
-| geode-launcher://main/launch                | Opens to the game after the launcher is finished checking for updates    | 
-| geode-launcher://main/launch?safe-mode=true | Opens to the game like before, but with safe mode enabled                |
-| geode-launcher://settings                   | Opens the main settings                                                  |
-| geode-launcher://developer-settings         | Opens the developer settings                                             |
-| geode-launcher://logs                       | Opens the application logs                                               |
-| geode-launcher://crashes                    | Opens the crash dumps viewer                                             |
+| wrstgdps-geode://main                       | Opens to the main activity, forces the user to explicitly confirm launch |
+| wrstgdps-geode://main/launch                | Opens to the game after the launcher is finished checking for updates    | 
+| wrstgdps-geode/main/launch?safe-mode=true | Opens to the game like before, but with safe mode enabled                |
+| wrstgdps-geode://settings                   | Opens the main settings                                                  |
+| wrstgdps-geode://developer-settings         | Opens the developer settings                                             |
+| wrstgdps-geode://logs                       | Opens the application logs                                               |
+| wrstgdps-geode://crashes                    | Opens the crash dumps viewer                                             |
