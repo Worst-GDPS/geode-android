@@ -1,4 +1,4 @@
-package com.wrstgdps.geode.utils
+package com.geode.launcher.utils
 
 import android.content.Context
 import android.os.Build

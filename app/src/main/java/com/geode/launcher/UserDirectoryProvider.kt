@@ -1,4 +1,4 @@
-package com.wrstgdps.geode
+package com.geode.launcher
 
 import android.database.Cursor
 import android.database.MatrixCursor
@@ -10,7 +10,7 @@ import android.provider.DocumentsContract
 import android.provider.DocumentsProvider
 import android.webkit.MimeTypeMap
 import androidx.annotation.RequiresApi
-import com.wrstgdps.geode.utils.LaunchUtils
+import com.geode.launcher.utils.LaunchUtils
 import java.io.File
 
 private val DEFAULT_ROOT_PROJECTION: Array<String> = arrayOf(

@@ -238,7 +238,7 @@
 
         <provider
             android:name=".UserDirectoryProvider"
-            android:authorities="com.wrstgdps.geode.user"
+            android:authorities="com.wrstgdps.launcher.user"
             android:exported="true"
             android:grantUriPermissions="true"
             android:permission="android.permission.MANAGE_DOCUMENTS">
@@ -248,7 +248,7 @@
         </provider>
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.wrstgdps.geode.fileprovider"
+            android:authorities="com.wrstgdps.launcher.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data

@@ -1,4 +1,4 @@
-package com.wrstgdps.geode.log
+package com.geode.launcher.log
 
 import kotlin.time.Clock
 import kotlin.time.Instant

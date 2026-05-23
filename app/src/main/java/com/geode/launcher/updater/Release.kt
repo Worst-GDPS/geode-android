@@ -1,6 +1,6 @@
-package com.wrstgdps.geode.updater
+package com.geode.launcher.updater
 
-import com.wrstgdps.geode.utils.LaunchUtils
+import com.geode.launcher.utils.LaunchUtils
 import kotlin.time.Instant
 import kotlinx.serialization.Serializable
 import kotlin.time.ExperimentalTime

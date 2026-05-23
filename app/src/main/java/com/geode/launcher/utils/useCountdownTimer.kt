@@ -1,4 +1,4 @@
-package com.wrstgdps.geode.utils
+package com.geode.launcher.utils
 
 import androidx.compose.runtime.*
 import androidx.lifecycle.compose.LocalLifecycleOwner

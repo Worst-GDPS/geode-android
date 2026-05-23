@@ -1,11 +1,11 @@
-package com.wrstgdps.geode.ui.theme
+package com.geode.launcher.ui.theme
 
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
-import com.wrstgdps.geode.R
+import com.geode.launcher.R
 
 val robotoMonoFamily = FontFamily(
     Font(R.font.robotomono_medium, FontWeight.Medium),

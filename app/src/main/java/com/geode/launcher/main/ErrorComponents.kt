@@ -1,4 +1,4 @@
-package com.wrstgdps.geode.main
+package com.geode.launcher.main
 
 import android.content.ActivityNotFoundException
 import android.content.ClipData
@@ -51,16 +51,16 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.text.withLink
 import androidx.compose.ui.unit.dp
-import com.wrstgdps.geode.preferences.ApplicationLogsActivity
-import com.wrstgdps.geode.BuildConfig
-import com.wrstgdps.geode.R
-import com.wrstgdps.geode.UserDirectoryProvider
-import com.wrstgdps.geode.preferences.GeodeLogsListingActivity
-import com.wrstgdps.geode.preferences.TextViewActivity
-import com.wrstgdps.geode.ui.theme.Typography
-import com.wrstgdps.geode.utils.GamePackageUtils
-import com.wrstgdps.geode.utils.LaunchUtils
-import com.wrstgdps.geode.utils.PreferenceUtils
+import com.geode.launcher.preferences.ApplicationLogsActivity
+import com.geode.launcher.BuildConfig
+import com.geode.launcher.R
+import com.geode.launcher.UserDirectoryProvider
+import com.geode.launcher.preferences.GeodeLogsListingActivity
+import com.geode.launcher.preferences.TextViewActivity
+import com.geode.launcher.ui.theme.Typography
+import com.geode.launcher.utils.GamePackageUtils
+import com.geode.launcher.utils.LaunchUtils
+import com.geode.launcher.utils.PreferenceUtils
 import kotlinx.coroutines.launch
 import java.io.File
 

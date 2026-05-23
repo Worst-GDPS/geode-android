@@ -1,4 +1,4 @@
-package com.wrstgdps.geode.preferences
+package com.geode.launcher.preferences
 
 import android.content.ClipData
 import android.content.ClipboardManager
@@ -40,19 +40,19 @@ import androidx.compose.ui.res.pluralStringResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import com.wrstgdps.geode.R
-import com.wrstgdps.geode.preferences.components.OptionsButton
-import com.wrstgdps.geode.preferences.components.OptionsGroup
-import com.wrstgdps.geode.preferences.components.ProfileCreateCard
-import com.wrstgdps.geode.preferences.components.ProfileSelectCard
-import com.wrstgdps.geode.preferences.components.SettingsCard
-import com.wrstgdps.geode.preferences.components.SettingsSelectCard
-import com.wrstgdps.geode.preferences.components.SettingsStringCard
-import com.wrstgdps.geode.ui.theme.GeodeLauncherTheme
-import com.wrstgdps.geode.ui.theme.LocalTheme
-import com.wrstgdps.geode.ui.theme.Theme
-import com.wrstgdps.geode.utils.LaunchUtils
-import com.wrstgdps.geode.utils.PreferenceUtils
+import com.geode.launcher.R
+import com.geode.launcher.preferences.components.OptionsButton
+import com.geode.launcher.preferences.components.OptionsGroup
+import com.geode.launcher.preferences.components.ProfileCreateCard
+import com.geode.launcher.preferences.components.ProfileSelectCard
+import com.geode.launcher.preferences.components.SettingsCard
+import com.geode.launcher.preferences.components.SettingsSelectCard
+import com.geode.launcher.preferences.components.SettingsStringCard
+import com.geode.launcher.ui.theme.GeodeLauncherTheme
+import com.geode.launcher.ui.theme.LocalTheme
+import com.geode.launcher.ui.theme.Theme
+import com.geode.launcher.utils.LaunchUtils
+import com.geode.launcher.utils.PreferenceUtils
 
 class DeveloperSettingsActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

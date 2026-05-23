@@ -1,10 +1,10 @@
-package com.wrstgdps.geode.log
+package com.geode.launcher.log
 
 import android.app.Application
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
-import com.wrstgdps.geode.utils.LaunchUtils
+import com.geode.launcher.utils.LaunchUtils
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import java.io.File
